@@ -1,7 +1,9 @@
 ### Hola! soy Eliana Cristaldo 👋
 
 class Perfil {
+
   constructor(nombre, profesion, experiencia, tecnologias, habilidades, descripcion) {
+  
     this.nombre = nombre;
     this.profesion = profesion;
     this.experiencia = experiencia;
@@ -16,7 +18,9 @@ class Perfil {
 }
 
 // Crear una instancia del objeto Perfil
+
 const perfil = new Perfil(
+
   "Eliana Cristaldo",
   "Programadora",
   "Sin experiencia previa",
@@ -26,4 +30,5 @@ const perfil = new Perfil(
 );
 
 // Llamar al método presentar para mostrar la presentación del perfil
+
 perfil.presentar();
