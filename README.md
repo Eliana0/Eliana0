@@ -17,8 +17,6 @@ class Perfil {
   }
 }
 
-// Crear una instancia del objeto Perfil
-
 const perfil = new Perfil(
 
   "Eliana Cristaldo",
@@ -28,7 +26,5 @@ const perfil = new Perfil(
   ["Resolución de problemas", "Aprendizaje rápido", "Trabajo en equipo"],
   "Soy una programadora entusiasta y dedicada, especializada en tecnologías web como HTML, CSS, JavaScript, Node.js, MongoDB y React.js. Aunque no tengo experiencia laboral previa, poseo una sólida base de conocimientos y habilidades que me permiten enfrentar desafíos de programación. Soy apasionada por resolver problemas y aprender nuevas tecnologías."
 );
-
-// Llamar al método presentar para mostrar la presentación del perfil
 
 perfil.presentar();
